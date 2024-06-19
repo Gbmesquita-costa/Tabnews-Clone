@@ -12,20 +12,13 @@
     "isolatedModules": true,
     "jsx": "preserve",
     "incremental": true,
+    "baseUrl": ".",
     "plugins": [
       {
         "name": "next"
       }
-    ],
-    "baseUrl": "."
+    ]
   },
-  "include": [
-    "next-env.d.ts",
-    "**/*.ts",
-    "**/*.tsx",
-    ".next/types/**/*.ts",
-    "infra/database.jts",
-    "tests/integration/api/v1/status/get.test.ts"
-  ],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
   "exclude": ["node_modules"]
 }
