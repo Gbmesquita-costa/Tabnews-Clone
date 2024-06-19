@@ -26,8 +26,8 @@
     "**/*.ts",
     "**/*.tsx",
     ".next/types/**/*.ts",
-    "tests/calculadora.test.js",
-    "infra/database.jts"
+    "infra/database.jts",
+    "tests/integration/api/v1/status/get.test.ts"
   ],
   "exclude": ["node_modules"]
 }
